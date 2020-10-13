@@ -1,35 +1,40 @@
-.sidenav-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
+@import '../styles.scss';
 
-mat-sidenav {
-  background-color: gray;
 
-  ul {
-    width: 100%;
-    list-style: none;
+.app-root {
+  .sidenav-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
-  li {
-    width: 100%;
-    padding: 16px;
+  mat-sidenav {
+    background-color: gray;
 
-    a & {
-      cursor: pointer;
-      color: black;
+    ul {
+      width: 100%;
+      list-style: none;
+    }
 
-      &:hover {
-        background-color: black;
-        color: white;
+    li {
+      width: 100%;
+      padding: 16px;
+
+      a & {
+        cursor: pointer;
+        color: black;
+
+        &:hover {
+          background-color: black;
+          color: white;
+        }
       }
     }
   }
-}
 
-mat-sidenav-content {
-  padding: 16px;
+  mat-sidenav-content {
+    padding: 16px;
+  }
 }

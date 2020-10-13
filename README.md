@@ -4,7 +4,8 @@ Please note, you **must** use **yarn** during the beta phase of CLI 11 b/c it al
 
 # Installing Project Dependencies
 
-* To install node packages, run `yarn`
+* To install node packages for the projects and schematics aplication, run
+  `npm run setup:dev:all`
 
 # Building & Serving Projects
 
@@ -104,6 +105,9 @@ add component and class tests included in component schematics
 ### TODO 8: Setup Internationalization
 
 All microfrontends have i18n and include schematics
+
+### TODO 9: Projects can be configured as CustomElements
+
 
 ## References
 

@@ -22,8 +22,9 @@ module.exports = {
           // Angular
           "@angular/core",
           "@angular/common",
-          "@angular/router"
+          "@angular/router",
           // Other Dependencies to be Shared...
+          "@angular/material",
         ]
     })
   ],

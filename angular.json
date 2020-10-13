@@ -28,6 +28,11 @@
               "projects/mf1/src/assets"
             ],
             "styles": [],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "../shell/app/src/assets/styles"
+              ]
+            },
             "scripts": [],
             "extraWebpackConfig": "projects/mf1/webpack.config.js"
           },
@@ -94,7 +99,6 @@
               "projects/mf1/src/assets"
             ],
             "styles": [
-              "projects/mf1/src/styles.scss"
             ],
             "scripts": [],
             "extraWebpackConfig": "projects/mf1/webpack.config.js"
@@ -147,11 +151,15 @@
             "polyfills": "projects/shell/src/polyfills.ts",
             "tsConfig": "projects/shell/tsconfig.app.json",
             "aot": true,
+            "bundleStyles": false,
             "assets": [
               "projects/shell/src/favicon.ico",
               "projects/shell/src/assets"
             ],
             "styles": [],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/assets/styles"]
+            },
             "scripts": [],
             "extraWebpackConfig": "projects/shell/webpack.config.js"
           },
@@ -178,8 +186,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "1mb",
+                  "maximumError": "2mb"
                 }
               ],
               "extraWebpackConfig": "projects/shell/webpack.prod.config.js"
@@ -215,9 +223,12 @@
             "karmaConfig": "projects/shell/karma.conf.js",
             "assets": [
               "projects/shell/src/favicon.ico",
-              "projects/shell/src/assets"
+              "projects/shell/src/assets",
             ],
             "styles": [],
+            "styleProcessorOptions": {
+              "includePaths": ["projects/shell/src/styles"]
+            },
             "scripts": [],
             "extraWebpackConfig": "projects/shell/webpack.config.js"
           }
