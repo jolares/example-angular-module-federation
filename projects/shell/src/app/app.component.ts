@@ -3,6 +3,7 @@ import { Component, ViewChild, ViewContainerRef, ɵrenderComponent as renderComp
 
 @Component({
   selector: 'app-root',
+  styleUrls: ['./app.component.css'],
   template: `
     <ul>
       <li><img src="../assets/angular.png" width="50"></li>
@@ -12,11 +13,23 @@ import { Component, ViewChild, ViewContainerRef, ɵrenderComponent as renderComp
       <li><a routerLink="/mf1-routes/feature-2">MF1 Feat-2 Component</a></li>
       <li><a routerLink="/mf1-routes/feature-3-routes">MF1 Feat-3 SubModuleComponent</a></li>
     </ul>
+    <mat-drawer-container class="sidenav-container" hasBackdrop="false">
+      <mat-drawer #drawer mode="over">
+        I'm a drawer
+      </mat-drawer>
 
-    <p>Shell Feature1Component's router-outlet below:</p>
+      <mat-drawer-content>
+        <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
+        <ng-container *ngTemplateOutlet="projectsContainer"></ng-container>
+      </mat-drawer-content>
+    </mat-drawer-container>
 
-    <router-outlet></router-outlet>
-  `
+    <ng-template #projectsContainer>
+      <p>Shell Feature1Component's router-outlet below:</p>
+
+      <router-outlet></router-outlet>
+    </ng-template>
+  `,
 })
 export class AppComponent {
   title = 'shell';

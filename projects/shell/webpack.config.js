@@ -17,7 +17,8 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
             shared: [
               "@angular/core",
               "@angular/common",
-              "@angular/router"
+              "@angular/router",
+              "@angular/material",
             ]
         })
       ],

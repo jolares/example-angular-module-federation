@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-feature1',
   styleUrls: ['./feature1.component.css'],
   template: `
-    Shell Feature1Component
+    <h1>Shell Feat-1 Component</h1>
   `
 })
 export class Feature1Component implements OnInit {

@@ -31,3 +31,21 @@ Please note, you **must** use **yarn** during the beta phase of CLI 11 b/c it al
     * ...etc.
 
 * **Note:** when serving micro-frontends along the shell application, always make sure all other micro-frontends are served before `shell` is loaded in the browser.
+
+
+## Scaffolding
+
+### Project Folder Structure
+
+```
+root
+  |- /projects
+  |  '- shell                      // Shell Micro-Frontend App (Host)
+  |     '- webpack.shell.config.js
+  |  '- mf1
+  |     '- webpack.mf1.config.js
+  |  '- mf2
+  |     '- webpack.mf2.config.js
+  |  '- ...                        // Micro-Frontend Apps (Remotes)
+  |
+```
