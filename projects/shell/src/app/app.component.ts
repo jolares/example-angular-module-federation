@@ -3,7 +3,7 @@ import { Component, ViewChild, ViewContainerRef, ɵrenderComponent as renderComp
 
 @Component({
   selector: 'app-root',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
   template: `
     <ul>
       <li><img src="../assets/angular.png" width="50"></li>

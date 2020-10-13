@@ -5,7 +5,11 @@
   "projects": {
     "mf1": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "projects/mf1",
       "sourceRoot": "projects/mf1/src",
       "prefix": "app",
@@ -90,7 +94,7 @@
               "projects/mf1/src/assets"
             ],
             "styles": [
-              "projects/mf1/src/styles.css"
+              "projects/mf1/src/styles.scss"
             ],
             "scripts": [],
             "extraWebpackConfig": "projects/mf1/webpack.config.js"
@@ -125,7 +129,11 @@
     },
     "shell": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "projects/shell",
       "sourceRoot": "projects/shell/src",
       "prefix": "app",

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-feature1',
-  styleUrls: ['./feature1.component.css'],
+  styleUrls: ['./feature1.component.scss'],
   template: `
     <h1>Shell Feat-1 Component</h1>
   `
