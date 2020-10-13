@@ -15,7 +15,7 @@
     "start:shell": "ng serve shell  -o --port 5000",
     "start:mf1": "ng serve mf1 -o --port 3000",
     "lint": "ng lint",
-    "build:schematics": "cd schematics && npm run build -- -w",
+    "build:schematics:watch": "cd schematics && npm run build -- -w"
   },
   "private": true,
   "resolutions": {

@@ -52,21 +52,56 @@ root
 
 ## Adding New Micro-Frontend Projects
 
-* To create a new [remote] micro-frontend, run:
+* To create a new remote micro-frontend project, run:
   `schematics:project a --name={PROJECT_NAME}`
 
-## Experiments
+## TODOs (Experiments)
 
-### 1 Dependencies
+### TODO 1: Shared & Isolated Dependencies
+
 Shell uses shared Material
 MF1 uses shared Material
 MF2 uses its own Material
-
-### 2 Multibrowser Support
-
-### 3 Router
-
-### 4 Externals
+MF2 uses Unique Webpack Object
 
 
+### TODO 2: Shared Multibrowser Support Setup & Theming
 
+Can share
+Can have adhoc-alone config
+
+### TODO 3: Navigation
+
+Has standalone routing
+Has shared routing
+Has non-router navigation
+
+### TODO 4: Externals
+
+Serves onlu needed dependencies (skip the ones host has)
+Serves all depencies when host does not have them
+
+### TODO 5: Dockerize
+
+Serves onlu needed dependencies (skip the ones host has)
+Serves all depencies when host does not have them
+
+### TODO 6: Production Server
+
+Serves onlu needed dependencies (skip the ones host has)
+Serves all depencies when host does not have them
+
+### TODO 7: NgRx Store
+
+MF1 has standalone store
+MF1 and Shell share Store
+
+
+
+## References
+
+1. [The Microfrontend Revolution: Module Federation in Webpack 5](https://www.angulararchitects.io/aktuelles/the-microfrontend-revolution-module-federation-in-webpack-5/)
+2. [Using Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements)
+3. [Webpack](https://webpack.js.org/)
+4. [TypeScript Lang](https://www.typescriptlang.org/)
+5. TODO: add new angular-arkitects resources.
