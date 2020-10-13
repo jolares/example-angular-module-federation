@@ -96,7 +96,10 @@ Serves all depencies when host does not have them
 MF1 has standalone store
 MF1 and Shell share Store
 
+### TODO 7: Setup Unit & E2E testing infrastructure
 
+has flexibility to use jest, karma, and both
+add component and class tests included in component schematics
 
 ## References
 
