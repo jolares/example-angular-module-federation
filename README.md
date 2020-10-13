@@ -49,3 +49,24 @@ root
   |  '- ...                        // Micro-Frontend Apps (Remotes)
   |
 ```
+
+## Adding New Micro-Frontend Projects
+
+* To create a new [remote] micro-frontend, run:
+  `schematics:project a --name={PROJECT_NAME}`
+
+## Experiments
+
+### 1 Dependencies
+Shell uses shared Material
+MF1 uses shared Material
+MF2 uses its own Material
+
+### 2 Multibrowser Support
+
+### 3 Router
+
+### 4 Externals
+
+
+

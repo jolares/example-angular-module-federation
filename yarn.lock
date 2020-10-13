@@ -134,6 +134,17 @@
     rxjs "6.6.2"
     source-map "0.7.3"
 
+"@angular-devkit/core@10.1.6":
+  version "10.1.6"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-10.1.6.tgz#ca142a77cbf8bdb5eed5fd249d4188fab92367fc"
+  integrity sha512-RhZCbX2I+ukR6/yu1OxwtyveBkQy+knRSQ7oxsBbwkS4M0XzmUswlf0p8lTfJI9pxrJnc2SODatMfEKeOYWmkA==
+  dependencies:
+    ajv "6.12.4"
+    fast-json-stable-stringify "2.1.0"
+    magic-string "0.25.7"
+    rxjs "6.6.2"
+    source-map "0.7.3"
+
 "@angular-devkit/core@11.0.0-next.4":
   version "11.0.0-next.4"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-11.0.0-next.4.tgz#a13f7e9d58f01569b35a04e31939197535c298f0"
@@ -155,6 +166,15 @@
     magic-string "0.25.2"
     rxjs "6.4.0"
     source-map "0.7.3"
+
+"@angular-devkit/schematics@10.1.6":
+  version "10.1.6"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-10.1.6.tgz#df30d7253857a47017213c97a0907b5f5ff4836a"
+  integrity sha512-ObV7GdFPgw8YXLOKCVg26ahfm4PGIhPGuYBb+hKo3fTyCge1o04Z7B+NGcD6QTxSkWSI+bVs9anbAt+DErgXuA==
+  dependencies:
+    "@angular-devkit/core" "10.1.6"
+    ora "5.0.0"
+    rxjs "6.6.2"
 
 "@angular-devkit/schematics@11.0.0-next.4":
   version "11.0.0-next.4"
@@ -1270,6 +1290,15 @@
   dependencies:
     "@angular-devkit/core" "8.0.0"
     "@angular-devkit/schematics" "8.0.0"
+
+"@schematics/angular@^10.1.6":
+  version "10.1.6"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-10.1.6.tgz#0ea81c5cf753fe5d4c7e27a481c1e0f268d3e77f"
+  integrity sha512-+240dJ0B0th2LIhM1p8PeqFqe8unPIu7YghYJngwCzRuDpB0nvhdIdd4trNrd1eBYkYCMus25glZGJT2UuCLhg==
+  dependencies:
+    "@angular-devkit/core" "10.1.6"
+    "@angular-devkit/schematics" "10.1.6"
+    jsonc-parser "2.3.0"
 
 "@schematics/update@0.1100.0-next.4":
   version "0.1100.0-next.4"
@@ -5148,6 +5177,11 @@ json5@^2.1.2:
   integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
   dependencies:
     minimist "^1.2.5"
+
+jsonc-parser@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-2.3.0.tgz#7c7fc988ee1486d35734faaaa866fadb00fa91ee"
+  integrity sha512-b0EBt8SWFNnixVdvoR2ZtEGa9ZqLhbJnOjezn+WP+8kspFm+PFYDN8Z4Bc7pRlDjvuVcADSUkroIuTWWn/YiIA==
 
 jsonc-parser@2.3.1:
   version "2.3.1"
