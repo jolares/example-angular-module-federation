@@ -101,6 +101,10 @@ MF1 and Shell share Store
 has flexibility to use jest, karma, and both
 add component and class tests included in component schematics
 
+### TODO 8: Setup Internationalization
+
+All microfrontends have i18n and include schematics
+
 ## References
 
 1. [The Microfrontend Revolution: Module Federation in Webpack 5](https://www.angulararchitects.io/aktuelles/the-microfrontend-revolution-module-federation-in-webpack-5/)
