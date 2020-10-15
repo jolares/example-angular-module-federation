@@ -4,13 +4,8 @@
 
 export const environment = {
   production: false,
-  customElement: false,
-  remoteRoutes: [
-    {
-      path: 'mf1-routes',
-      loadChildren: () => import('mf1/Module').then(module => module.AppModule)
-    }
-  ]
+  customElement: true,
+  remoteRoutes: []
 };
 
 /*
